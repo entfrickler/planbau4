@@ -3,7 +3,7 @@
 use yii\bootstrap\Carousel;
 
 /* @var $this yii\web\View */
-$this->title = 'über - p l a n b a u 4 | architekten . ingenieure';
+$this->title = 'projekte - p l a n b a u 4 | architekten . ingenieure';
 //$this->params['breadcrumbs'][] = $this->title;
 ?>
 <!-- Header -->
@@ -11,7 +11,8 @@ $this->title = 'über - p l a n b a u 4 | architekten . ingenieure';
     <div class="container">
         <div class="row">
 
-            <h1 class="lead">hermann rick</h1>
+            <h1 class="lead">projekte</h1>
+            <p></p>
         </div>
         <div class="row">
             <?php
@@ -30,6 +31,7 @@ $this->title = 'über - p l a n b a u 4 | architekten . ingenieure';
                 ]
             ]);
             ?>
+            <p></p>
         </div>
     </div>
 </header>

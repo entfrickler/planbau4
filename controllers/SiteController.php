@@ -100,10 +100,20 @@ class SiteController extends Controller
 
     public function getGalleryImages(){
         $images = [
-            'images/project1.jpg',
-            'images/project2.jpg',
-            'images/project3.jpg'
-            ];
+            [
+                'url' => 'images/gallery/project1.jpg',
+                'src' => 'images/gallery/thumb_project1.jpg',
+                'options' => ['title' => 'project 1']
+            ], [
+                'url' => 'images/gallery/project2.jpg',
+                'src' => 'images/gallery/thumb_project2.jpg',
+                'options' => ['title' => 'project 1']
+            ], [
+                'url' => 'images/gallery/project3.jpg',
+                'src' => 'images/gallery/thumb_project3.jpg',
+                'options' => ['title' => 'project 1']
+            ],
+        ];
         return $images;
     }
 }

@@ -14,24 +14,7 @@ $this->title = 'über - ' . Yii::$app->params['companyName'];
             <p></p>
         </div>
         <div class="row">
-            <?php
-            $items = [
-                [
-                    'url' => 'images/gallery/project1.jpg',
-                    'src' => 'images/gallery/thumb_project1.jpg',
-                    'options' => ['title' => 'project 1']
-                ], [
-                    'url' => 'images/gallery/project2.jpg',
-                    'src' => 'images/gallery/thumb_project2.jpg',
-                    'options' => ['title' => 'project 1']
-                ], [
-                    'url' => 'images/gallery/project3.jpg',
-                    'src' => 'images/gallery/thumb_project3.jpg',
-                    'options' => ['title' => 'project 1']
-                ],
-            ];
-            ?>
-            <?= dosamigos\gallery\Gallery::widget(['items' => $items]); ?>
+            <?= dosamigos\gallery\Gallery::widget(['items' => $this->context->getGalleryImages()]); ?>
             <!--            --><?php
             //            echo Carousel::widget([
             //                'items' => [

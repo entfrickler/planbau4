@@ -76,13 +76,13 @@ AppAsset::register($this);
                         <div class="col-md-3 widget">
                             <h3 class="widget-title">kontakt</h3>
                             <div class="widget-body">
-                                <p>hermann rick<br>
-                                    gräfenbergstraße 2<br>
-                                    65399 kiedrich<br>
-                                    tel:  06123- 60 12 60<br>
-                                    fax: 06123- 60 12 70<br>
+                                <p><?php echo Yii::$app->params['companyOwner']; ?><br>
+                                    <?php echo Yii::$app->params['companyStreet'] ?><br>
+                                    <?php echo Yii::$app->params['companyAddress'] ?><br>
+                                    <a href="tel:<?php echo Yii::$app->params['companyPhone'] ?>">tel: <?php echo Yii::$app->params['companyPhone'] ?></a><br>
+                                    <a href="tel:<?php echo Yii::$app->params['companyFax'] ?>">fax: <?php echo Yii::$app->params['companyFax'] ?></a><br>
 
-                                    <a href="mailto:architekten (at) planbau4.de">architekten (at) planbau4.de</a><br>
+                                    <a href="mailto:<?php echo Yii::$app->params['companyEmail'] ?>"><?php echo Yii::$app->params['companyEmail'] ?></a><br>
                                 </p>	
                             </div>
                         </div>

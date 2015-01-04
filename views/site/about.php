@@ -1,16 +1,22 @@
 <?php
+
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-$this->title = 'About';
-$this->params['breadcrumbs'][] = $this->title;
+$this->title = 'über - p l a n b a u 4 | architekten . ingenieure';
+//$this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="site-about">
-    <h1><?= Html::encode($this->title) ?></h1>
-
-    <p>
-        This is the About page. You may modify the following file to customize its content:
-    </p>
-
-    <code><?= __FILE__ ?></code>
-</div>
+<!-- Header -->
+<header id="head">
+    <div class="container">
+        <div class="row">
+            <h1 class="lead">hermann rick</h1>
+            <p>dipl.ing. architekt</p>
+            <img src="http://placehold.it/200x200" alt="foto">
+            <p class="tagline"></p>
+            <p>1991 gründung planbau 4</p>
+            <p>1983-1988 architekturstudium in wiesbaden</p>
+        </div>
+    </div>
+</header>
+<!-- /Header -->

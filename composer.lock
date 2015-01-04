@@ -4,8 +4,51 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "10d8d3b92d960bec820ae06a5e92ecc8",
+    "hash": "3c62eba96d9fac4eb4daf447c4044e32",
     "packages": [
+        {
+            "name": "2amigos/yii2-gallery-widget",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2amigos/yii2-gallery-widget.git",
+                "reference": "9a9808c26df93e5a07cdde88b27b55b3c27a9a51"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/2amigos/yii2-gallery-widget/zipball/9a9808c26df93e5a07cdde88b27b55b3c27a9a51",
+                "reference": "9a9808c26df93e5a07cdde88b27b55b3c27a9a51",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "dosamigos\\gallery\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Antonio Ramirez",
+                    "email": "ramirez.cobos@gmail.com",
+                    "homepage": "http://www.ramirezcobos.com"
+                }
+            ],
+            "description": "BlueImp Gallery Widget for Yii2.",
+            "keywords": [
+                "extension",
+                "gallery",
+                "widget",
+                "yii"
+            ],
+            "time": "2014-04-07 22:24:40"
+        },
         {
             "name": "bower-asset/bootstrap",
             "version": "v3.3.1",
@@ -208,7 +251,8 @@
                     "script/",
                     "test/"
                 ]
-            }
+            },
+            "time": "2014-12-04 17:15:44"
         },
         {
             "name": "cebe/markdown",
@@ -373,12 +417,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "14d49a202853b254032769229d01e09e80ed8a67"
+                "reference": "a7bf1dfbd349252d9ea8a40bd4a17a6a3de78513"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/14d49a202853b254032769229d01e09e80ed8a67",
-                "reference": "14d49a202853b254032769229d01e09e80ed8a67",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/a7bf1dfbd349252d9ea8a40bd4a17a6a3de78513",
+                "reference": "a7bf1dfbd349252d9ea8a40bd4a17a6a3de78513",
                 "shasum": ""
             },
             "require": {
@@ -454,7 +498,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2015-01-03 15:43:56"
+            "time": "2015-01-04 18:03:46"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -634,12 +678,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "293b16ef75e09d511ca4ab131e7fa4c093534e6b"
+                "reference": "f6aae58a0d7c5ace0d95ae1281b67b3d16c54941"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/293b16ef75e09d511ca4ab131e7fa4c093534e6b",
-                "reference": "293b16ef75e09d511ca4ab131e7fa4c093534e6b",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/f6aae58a0d7c5ace0d95ae1281b67b3d16c54941",
+                "reference": "f6aae58a0d7c5ace0d95ae1281b67b3d16c54941",
                 "shasum": ""
             },
             "require": {
@@ -678,7 +722,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2015-01-02 23:06:12"
+            "time": "2015-01-04 21:38:19"
         },
         {
             "name": "phpspec/php-diff",

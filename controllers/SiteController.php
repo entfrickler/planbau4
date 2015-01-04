@@ -97,4 +97,13 @@ class SiteController extends Controller
     {
         return $this->render('projects');
     }
+
+    public function getGalleryImages(){
+        $images = [
+            'images/project1.jpg',
+            'images/project2.jpg',
+            'images/project3.jpg'
+            ];
+        return $images;
+    }
 }

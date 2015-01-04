@@ -3,7 +3,7 @@
 use yii\bootstrap\Carousel;
 
 /* @var $this yii\web\View */
-$this->title = 'projekte - p l a n b a u 4 | architekten . ingenieure';
+$this->title = 'über - '.Yii::$app->params['companyName'];
 //$this->params['breadcrumbs'][] = $this->title;
 ?>
 <!-- Header -->

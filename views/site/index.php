@@ -1,6 +1,6 @@
 <?php
 /* @var $this yii\web\View */
-$this->title = 'home - p l a n b a u 4 | architekten . ingenieure';
+$this->title = Yii::$app->params['companyName'];
 ?>
 <!-- Header -->
 <header id="head">

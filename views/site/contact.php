@@ -8,7 +8,7 @@ use yii\helpers\Html;
 /* @var $form yii\bootstrap\ActiveForm */
 /* @var $model app\models\ContactForm */
 
-$this->title = 'kontakt - p l a n b a u 4 | architekten . ingenieure';
+$this->title = Yii::$app->params['companyName'];
 //$this->params['breadcrumbs'][] = $this->title;
 ?>
 
@@ -17,7 +17,8 @@ $this->title = 'kontakt - p l a n b a u 4 | architekten . ingenieure';
 <header id="head">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-9 center">
+            <div class="col-lg-9
+             center">
                 <h1 class="lead">kontakt formular</h1>
 
                 <?php if (Yii::$app->session->hasFlash('contactFormSubmitted')): ?>

@@ -1,6 +1,5 @@
 <?php
 
-use yii\helpers\Html;
 use yii\bootstrap\Carousel;
 
 /* @var $this yii\web\View */
@@ -11,7 +10,10 @@ $this->title = 'über - p l a n b a u 4 | architekten . ingenieure';
 <header id="head">
     <div class="container">
         <div class="row">
+
             <h1 class="lead">hermann rick</h1>
+        </div>
+        <div class="row">
             <?php
             echo Carousel::widget([
                 'items' => [
@@ -23,7 +25,7 @@ $this->title = 'über - p l a n b a u 4 | architekten . ingenieure';
                     [
                         'content' => '<img src="images/project3.jpg"/>',
                         'caption' => '<h4>This is title</h4><p>This is the caption text</p>',
-                    //'options' => [...],
+                        //'options' => [...],
                     ],
                 ]
             ]);

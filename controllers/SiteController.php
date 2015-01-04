@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use himiklab\thumbnail\EasyThumbnailImage;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -102,8 +103,7 @@ class SiteController extends Controller
         $images = [
             [
                 'url' => 'images/gallery/project1.jpg',
-                'src' => 'images/gallery/thumb_project1.jpg',
-                'options' => ['title' => 'project 1']
+                'src' => EasyThumbnailImage::thumbnailFileUrl('images/gallery/project1.jpg',100,100),
             ], [
                 'url' => 'images/gallery/project2.jpg',
                 'src' => 'images/gallery/thumb_project2.jpg',

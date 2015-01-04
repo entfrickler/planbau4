@@ -1,4 +1,5 @@
 <?php
+use himiklab\thumbnail\EasyThumbnailImage;
 
 /* @var $this yii\web\View */
 $this->title = 'über - ' . Yii::$app->params['companyName'];
@@ -14,6 +15,7 @@ $this->title = 'über - ' . Yii::$app->params['companyName'];
             <p></p>
         </div>
         <div class="row">
+
             <?= dosamigos\gallery\Gallery::widget(['items' => $this->context->getGalleryImages()]); ?>
             <!--            --><?php
             //            echo Carousel::widget([

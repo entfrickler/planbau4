@@ -15,10 +15,8 @@ $this->title = Yii::$app->params['companyName'];
 
 <!-- Header -->
 <header id="head">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="col-lg-9
-             center">
                 <h1 class="lead">kontakt formular</h1>
 
                 <?php if (Yii::$app->session->hasFlash('contactFormSubmitted')): ?>
@@ -33,8 +31,7 @@ $this->title = Yii::$app->params['companyName'];
                         <?php if (Yii::$app->mailer->useFileTransport): ?>
                             Because the application is in development mode, the email is not sent but saved as
                             a file under <code><?= Yii::getAlias(Yii::$app->mailer->fileTransportPath) ?></code>.
-                                                                                                                Please configure the
-                            <code>useFileTransport</code> property of the <code>mail</code>
+                            Please configure the <code>useFileTransport</code> property of the <code>mail</code>
                             application component to be false to enable email sending.
                         <?php endif; ?>
                     </p>
@@ -80,6 +77,5 @@ $this->title = Yii::$app->params['companyName'];
                 <?php endif; ?>
             </div>
         </div>
-    </div>
 </header>
 <!-- /Header -->

@@ -1,7 +1,9 @@
 <?php
 
 return [
-    'companyName'=>'kontakt - p l a n b a u 4 | architekten . ingenieure',
+    'companyName'=>'planbau4',
+    'companyHead'=>'p l a n b a u 4',
+    'companySub'=>'architekten . ingenieure',
     'adminEmail' => 'admin@example.com',
     'companyOwner' => 'hermann rick',
     'companyStreet' => 'gräfenbergstraße 2',

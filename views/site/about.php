@@ -10,7 +10,7 @@ $this->title = 'über - '.Yii::$app->params['companyName'];
 <header id="head">
     <div class="container">
         <div class="row">
-            <h1 class="lead">hermann rick</h1>
+            <h1 class="lead"><?php echo Yii::$app->params['companyOwner']; ?></h1>
             <p>dipl.ing. architekt</p>
             <img src="http://placehold.it/200x200" alt="foto">
             <p class="tagline"></p>

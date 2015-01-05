@@ -251,8 +251,7 @@
                     "script/",
                     "test/"
                 ]
-            },
-            "time": "2014-12-04 17:15:44"
+            }
         },
         {
             "name": "cebe/markdown",
@@ -826,12 +825,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "86eaa6f31b06916232baa647677750e4485502c3"
+                "reference": "69a162a3506a83702f2e9e8a36b6f781533fc311"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/86eaa6f31b06916232baa647677750e4485502c3",
-                "reference": "86eaa6f31b06916232baa647677750e4485502c3",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/69a162a3506a83702f2e9e8a36b6f781533fc311",
+                "reference": "69a162a3506a83702f2e9e8a36b6f781533fc311",
                 "shasum": ""
             },
             "require": {
@@ -870,7 +869,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2015-01-04 23:04:34"
+            "time": "2015-01-04 23:32:04"
         },
         {
             "name": "phpspec/php-diff",

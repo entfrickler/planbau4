@@ -102,16 +102,21 @@ class SiteController extends Controller
     public function getGalleryImages(){
         $images = [
             [
-                'url' => 'images/gallery/project1.jpg',
-                'src' => EasyThumbnailImage::thumbnailFileUrl('images/gallery/project1.jpg',100,100),
+                'url' => 'images/gallery/1.png',
+                'src' => EasyThumbnailImage::thumbnailFileUrl('images/gallery/1.png',200 , 150),
+                'options' => ['title' => 'wohnhaus smu, eltville']
             ], [
-                'url' => 'images/gallery/project2.jpg',
-                'src' => 'images/gallery/thumb_project2.jpg',
-                'options' => ['title' => 'project 1']
+                'url' => 'images/gallery/2.png',
+                'src' => EasyThumbnailImage::thumbnailFileUrl('images/gallery/2.png',200 , 150),
+                'options' => ['title' => 'wohnhaus smu, eltville']
             ], [
-                'url' => 'images/gallery/project3.jpg',
-                'src' => 'images/gallery/thumb_project3.jpg',
-                'options' => ['title' => 'project 1']
+                'url' => 'images/gallery/3.png',
+                'src' => EasyThumbnailImage::thumbnailFileUrl('images/gallery/3.png',200 , 150),
+                'options' => ['title' => 'wohnhaus smu, eltville']
+            ], [
+                'url' => 'images/gallery/4.png',
+                'src' => EasyThumbnailImage::thumbnailFileUrl('images/gallery/4.png',200 , 150),
+                'options' => ['title' => 'wohnhaus smu, eltville']
             ],
         ];
         return $images;

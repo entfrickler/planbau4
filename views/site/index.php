@@ -1,23 +1,23 @@
 <?php
 /* @var $this yii\web\View */
-$this->title = Yii::$app->params['companyName'];
+$this->title = 'home - '.Yii::$app->params['companyHead'].' | '.Yii::$app->params['companySub'];
 ?>
 <!-- Header -->
 <header id="head">
     <div class="container">
         <div class="row">
-            <h1 class="lead">p l a n b a u 4</h1>
+            <h1 class="lead"><?php echo Yii::$app->params['companyHead']; ?></h1>
             <p class="tagline">architekten . ingenieure</p>
             <img src="images/kleine_bilder.jpg" alt="häuser">
             <p></p>
             <p class="tagline"></p>
-            <p>hermann rick architekt |
-                gräfenbergstraße 2-3 |
-                65399 kiedrich |
-                tel: 06123- 60 12 60 |
-                fax: 06123- 60 12 70 |
+            <p class="tagline"><?php echo Yii::$app->params['companyOwner']; ?> architekt |
+                <?php echo Yii::$app->params['companyStreet'] ?> |
+                <?php echo Yii::$app->params['companyAddress'] ?> |
+                <a href="tel:<?php echo Yii::$app->params['companyPhone'] ?>">tel: <?php echo Yii::$app->params['companyPhone'] ?></a> |
+                <a href="tel:<?php echo Yii::$app->params['companyFax'] ?>">fax: <?php echo Yii::$app->params['companyFax'] ?></a> |
                 <a href="mailto:architekten (at) planbau4.de">architekten (at) planbau4.de</a></p>
-            <p><a class="btn btn-default btn-lg" role="button" href="about.html">über</a> <a class="btn btn-action btn-lg" role="button" href="contact.html">kontakt</a></p>
+            <p></p>
         </div>
     </div>
 </header>

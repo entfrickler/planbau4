@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-$this->title = 'über - '.Yii::$app->params['companyName'];
+$this->title = 'über - '.Yii::$app->params['companyHead'].' | '.Yii::$app->params['companySub'];
 //$this->params['breadcrumbs'][] = $this->title;
 ?>
 <!-- Header -->

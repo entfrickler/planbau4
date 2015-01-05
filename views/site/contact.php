@@ -8,7 +8,7 @@ use yii\helpers\Html;
 /* @var $form yii\bootstrap\ActiveForm */
 /* @var $model app\models\ContactForm */
 
-$this->title = Yii::$app->params['companyName'];
+$this->title = 'kontakt - '.Yii::$app->params['companyHead'].' | '.Yii::$app->params['companySub'];
 //$this->params['breadcrumbs'][] = $this->title;
 ?>
 

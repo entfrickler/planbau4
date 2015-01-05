@@ -5,7 +5,7 @@ use app\widgets\GalleryDiv;
 use yii\bootstrap\Carousel;
 
 /* @var $this yii\web\View */
-$this->title = 'über - ' . Yii::$app->params['companyName'];
+$this->title = 'projekte - '.Yii::$app->params['companyHead'].' | '.Yii::$app->params['companySub'];
 //$this->params['breadcrumbs'][] = $this->title;
 ?>
 <!-- Header -->

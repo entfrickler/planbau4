@@ -103,19 +103,19 @@ class SiteController extends Controller
         $images = [
             [
                 'url' => 'images/gallery/1.png',
-                'src' => EasyThumbnailImage::thumbnailFileUrl('images/gallery/1.png',200 , 150),
+                'src' => EasyThumbnailImage::thumbnailFileUrl('images/gallery/1.png',300 , 200),
                 'options' => ['title' => 'wohnhaus smu, eltville']
             ], [
                 'url' => 'images/gallery/2.png',
-                'src' => EasyThumbnailImage::thumbnailFileUrl('images/gallery/2.png',200 , 150),
+                'src' => EasyThumbnailImage::thumbnailFileUrl('images/gallery/2.png',300 , 200),
                 'options' => ['title' => 'wohnhaus smu, eltville']
             ], [
                 'url' => 'images/gallery/3.png',
-                'src' => EasyThumbnailImage::thumbnailFileUrl('images/gallery/3.png',200 , 150),
+                'src' => EasyThumbnailImage::thumbnailFileUrl('images/gallery/3.png',300 , 200),
                 'options' => ['title' => 'wohnhaus smu, eltville']
             ], [
                 'url' => 'images/gallery/4.png',
-                'src' => EasyThumbnailImage::thumbnailFileUrl('images/gallery/4.png',200 , 150),
+                'src' => EasyThumbnailImage::thumbnailFileUrl('images/gallery/4.png',300 , 200),
                 'options' => ['title' => 'wohnhaus smu, eltville']
             ],
         ];
